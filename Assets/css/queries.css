@@ -1,0 +1,133 @@
+@media (min-width: 0px) and (max-width: 575px) {
+    /* Your styles for extra small devices */
+    .biz-head {
+        font-size: 2rem;
+    }
+    .navbar-background {
+        background-color: white;
+        padding: 1.3rem 0rem !important;
+      }
+      .hov-nav {
+        color: black !important;
+    }
+    .row-responsive{
+        text-align: center;
+    }
+    .biz-head-size {
+        font-size: 2rem;
+    }
+    .image-start {
+        display: none;
+    }
+    .started-color::before {
+        height: 100%;
+    }
+    .mybr {
+        display: none;
+      }
+    .bordr-dbl {
+    height: 205px;
+    width: 205px;
+}      
+  }
+  /* Small devices (landscape phones, 576px and up) */
+  @media (min-width: 576px) and (max-width: 767px) {
+    /* Your styles for small devices */
+    .hov-nav {
+        color: black !important;
+    }
+    .row-responsive{
+        text-align: center;
+    }
+    .image-start {
+        display: none;
+    
+    }
+    .started-color::before {
+        height: 100%;
+    }
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) and (max-width: 991px) {
+    /* Your styles for medium devices */
+    .hov-nav {
+        color: black !important;
+    }
+    .biz-head-size {
+        font-size: 2.6rem;
+    }
+
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) and (max-width: 1199px) {
+    /* Your styles for large devices */
+    .nav-margin {
+        margin-right: 0 !important;
+    }
+    .nav-margin {
+        margin-right: 0 !important;
+    }
+    .navbar-background {
+        background-color: #00b98e;
+    }
+    .biz-head {
+        color: white;
+    }
+    .nav-padding {
+        padding-top: 3rem !important;
+    padding-bottom: 2rem !important;
+    }
+    
+  }
+ 
+  
+  
+  /* X-Large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) and (max-width: 1399px) {
+    /* Your styles for x-large devices */
+    .main-quote-button {
+        display: inline;
+    }
+    .navbar-background {
+        background-color: #00b98e;
+    }
+    .biz-head {
+        color: white;
+    }
+    .nav-padding {
+        padding-top: 3rem !important;
+    padding-bottom: 2rem !important;
+    }
+  }
+  
+  /* XX-Large devices (larger desktops, 1400px and up) */
+  @media (min-width: 1400px) {
+    /* Your styles for xx-large devices */
+    .main-quote-button {
+        display: inline;
+    }
+    .navbar-background {
+        background-color: #00b98e;
+    }
+    .biz-head {
+        color: white;
+    }
+    .nav-padding {
+        padding-top: 3rem !important;
+    padding-bottom: 2rem !important;
+    }
+  }
+
+
+  @media (min-width: 1096px) {
+    /* Your styles for large devices */
+    .main-quote-button {
+        display: inline;
+        
+    }
+    .nav-margin {
+        margin-right: 3rem !important;
+    }
+  }
